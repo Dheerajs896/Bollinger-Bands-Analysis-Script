@@ -1,0 +1,20 @@
+What are Bollinger Bands?
+Bollinger Bands are a volatility indicator developed by John Bollinger. They consist of three lines plotted around a price series:
+
+The middle band is a simple moving average (SMA), typically over 20 periods.
+The upper band is the SMA plus N standard deviations (default: 2).
+The lower band is the SMA minus N standard deviations.
+
+The formulas:-
+Middle Band  = SMA(Close, 20)
+Upper Band   = SMA(Close, 20) + 2 × StdDev(Close, 20)
+Lower Band   = SMA(Close, 20) − 2 × StdDev(Close, 20)
+
+
+How to interpret them:
+
+When price touches or breaks the upper band → potentially overbought.
+When price touches or breaks the lower band → potentially oversold.
+Band squeeze (bands narrowing) → low volatility, often precedes a breakout.
+Band expansion (bands widening) → high volatility in motion.
+Statistically, ~95% of price action stays within the bands when using 2 standard deviations.

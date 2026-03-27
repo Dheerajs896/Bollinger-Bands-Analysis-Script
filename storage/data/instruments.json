@@ -1,0 +1,17 @@
+[
+   {
+      "segment":"NSE_EQ",
+      "name":"JOCIL LIMITED",
+      "exchange":"NSE",
+      "isin":"INE839G01010",
+      "instrument_type":"EQ",
+      "instrument_key":"NSE_EQ|INE839G01010",
+      "lot_size":1,
+      "freeze_quantity":100000.0,
+      "exchange_token":"16927",
+      "tick_size":5.0,
+      "trading_symbol":"JOCIL",
+      "short_name":"JOCIL",
+      "security_type":"NORMAL"
+   }
+]
